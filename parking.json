@@ -81,7 +81,7 @@
     },
     {
       "name": "Foy",
-      "map_filename": "foy.jpg",
+      "map_filename": "foy.png",
       "total_spaces": 30,
       "comments": "Staff Only Parking",
       "other_attributes": {
@@ -96,7 +96,7 @@
     },
     {
       "name": "Donnelly",
-      "map_filename": "donnelly.jpg",
+      "map_filename": "donnelly.png",
       "total_spaces": 40,
       "comments": "Parking lot for visitors and special events.",
       "other_attributes": {
@@ -111,7 +111,7 @@
     },
     {
       "name": "Beck West",
-      "map_filename": "beck_west.jpg",
+      "map_filename": "beck_west.png",
       "total_spaces": 100,
       "comments": "Parking lot exclusively for faculty members.",
       "other_attributes": {
@@ -126,7 +126,7 @@
     },
     {
       "name": "Riverview",
-      "map_filename": "riverview.jpg",
+      "map_filename": "riverview.png",
       "total_spaces": 45,
       "comments": "Covered parking garage for staff and visitors.",
       "other_attributes": {
@@ -141,7 +141,7 @@
     },
     {
       "name": "Midrise",
-      "map_filename": "midrise.jpg",
+      "map_filename": "midrise.png",
       "total_spaces": 40,
       "comments": "Parking lot reserved for special guests.",
       "other_attributes": {
