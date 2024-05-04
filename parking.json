@@ -7,10 +7,10 @@
       "comments": "Main parking lot for students",
       "other_attributes": {
         "full_lot_full": false,
-		"in_use_spaces": 20,
-		"students_parked": 10,
-		"staff_parked": 10,
-		"vistors_parked":0,
+        "in_use_spaces": 20,
+        "students_parked": 10,
+        "staff_parked": 10,
+        "visitors_parked": 0,
         "security_cameras": true
       },
       "spaces": [
@@ -86,10 +86,10 @@
       "comments": "Staff Only Parking",
       "other_attributes": {
         "full_lot_full": true,
-		"in_use_spaces": 30,
-		"students_parked": 30,
-		"staff_parked": 00,
-		"vistors_parked":0,
+        "in_use_spaces": 30,
+        "students_parked": 30,
+        "staff_parked": 0,
+        "visitors_parked": 0,
         "security_cameras": true
       },
       "spaces": []
@@ -101,10 +101,10 @@
       "comments": "Parking lot for visitors and special events.",
       "other_attributes": {
         "full_lot_full": false,
-		"in_use_spaces": 40,
-		"students_parked": 20,
-		"staff_parked": 5,
-		"vistors_parked":15,
+        "in_use_spaces": 40,
+        "students_parked": 20,
+        "staff_parked": 5,
+        "visitors_parked": 15,
         "security_cameras": true
       },
       "spaces": []
@@ -116,10 +116,10 @@
       "comments": "Parking lot exclusively for faculty members.",
       "other_attributes": {
         "full_lot_full": false,
-		"in_use_spaces": 65,
-		"students_parked": 55,
-		"staff_parked": 5,
-		"vistors_parked": 5,
+        "in_use_spaces": 65,
+        "students_parked": 55,
+        "staff_parked": 5,
+        "visitors_parked": 5,
         "security_cameras": true
       },
       "spaces": []
@@ -131,10 +131,10 @@
       "comments": "Covered parking garage for staff and visitors.",
       "other_attributes": {
         "full_lot_full": false,
-		"in_use_spaces": 40,
-		"students_parked": 20,
-		"staff_parked": 10,
-		"vistors_parked":5,
+        "in_use_spaces": 40,
+        "students_parked": 20,
+        "staff_parked": 10,
+        "visitors_parked": 5,
         "security_cameras": true
       },
       "spaces": []
@@ -146,10 +146,10 @@
       "comments": "Parking lot reserved for special guests.",
       "other_attributes": {
         "full_lot_full": true,
-		"in_use_spaces": 40,
-		"students_parked": 20,
-		"staff_parked": 20,
-		"vistors_parked":0,
+        "in_use_spaces": 40,
+        "students_parked": 20,
+        "staff_parked": 20,
+        "visitors_parked": 0,
         "security_cameras": true
       },
       "spaces": []
