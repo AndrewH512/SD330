@@ -3,7 +3,7 @@
     {
       "name": "McCann",
       "map_filename": "mcCann.png",
-      "total_spaces": 50,
+      "total_spaces": 12,
       "comments": "Main parking lot for students",
       "other_attributes": {
         "full_lot_full": false,
@@ -16,66 +16,66 @@
       "spaces": [
         {
           "space_id": 1,
-          "type": "student",
-          "status": "available"
+          "type": "Student",
+          "status": "Available"
         },
         {
           "space_id": 2,
-          "type": "student",
-          "status": "available"
+          "type": "Student",
+          "status": "Available"
         },
         {
           "space_id": 3,
-          "type": "staff",
-          "status": "reserved",
+          "type": "Staff",
+          "status": "Reserved",
           "reserved_date_time": "2024-04-23T10:00:00",
           "reserved_until": "2024-04-23T14:00:00"
         },
         {
           "space_id": 4,
-          "type": "handicap",
-          "status": "filled",
+          "type": "Handicap",
+          "status": "Filled",
           "filled_date_time": "2024-04-23T09:30:00"
         },
         {
           "space_id": 5,
-          "type": "student",
-          "status": "available"
+          "type": "Student",
+          "status": "Available"
         },
         {
           "space_id": 6,
-          "type": "staff",
-          "status": "available"
+          "type": "Staff",
+          "status": "Available"
         },
         {
           "space_id": 7,
-          "type": "student",
-          "status": "available"
+          "type": "Student",
+          "status": "Available"
         },
         {
           "space_id": 8,
-          "type": "student",
-          "status": "available"
+          "type": "Student",
+          "status": "Available"
         },
         {
           "space_id": 9,
-          "type": "student",
-          "status": "available"
+          "type": "Student",
+          "status": "Available"
         },
         {
           "space_id": 10,
-          "type": "staff",
-          "status": "available"
+          "type": "Staff",
+          "status": "Available"
         },
         {
           "space_id": 11,
-          "type": "student",
-          "status": "available"
+          "type": "Student",
+          "status": "Available"
         },
         {
           "space_id": 12,
-          "type": "staff",
-          "status": "available"
+          "type": "Staff",
+          "status": "Available"
         }
       ]
     },
@@ -92,7 +92,13 @@
         "visitors_parked": 0,
         "security_cameras": true
       },
-      "spaces": []
+      "spaces": [
+        {
+          "space_id": 1,
+          "type": "Student",
+          "status": "Available"
+        }
+      ]
     },
     {
       "name": "Donnelly",
@@ -107,7 +113,13 @@
         "visitors_parked": 15,
         "security_cameras": true
       },
-      "spaces": []
+      "spaces": [
+        {
+          "space_id": 1,
+          "type": "Student",
+          "status": "Available"
+        }
+      ]
     },
     {
       "name": "Beck West",
@@ -122,7 +134,13 @@
         "visitors_parked": 5,
         "security_cameras": true
       },
-      "spaces": []
+      "spaces": [
+        {
+          "space_id": 1,
+          "type": "Student",
+          "status": "Available"
+        }
+      ]
     },
     {
       "name": "Riverview",
@@ -137,7 +155,13 @@
         "visitors_parked": 5,
         "security_cameras": true
       },
-      "spaces": []
+      "spaces": [
+        {
+          "space_id": 1,
+          "type": "Student",
+          "status": "Available"
+        }
+      ]
     },
     {
       "name": "Midrise",
@@ -152,7 +176,13 @@
         "visitors_parked": 0,
         "security_cameras": true
       },
-      "spaces": []
+      "spaces": [
+        {
+          "space_id": 1,
+          "type": "Student",
+          "status": "Available"
+        }
+      ]
     }
   ]
 }
