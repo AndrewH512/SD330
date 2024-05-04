@@ -2,7 +2,7 @@
   "parking_lots": [
     {
       "name": "McCann",
-      "map_filename": "mcCann.jpg",
+      "map_filename": "mcCann.png",
       "total_spaces": 50,
       "comments": "Main parking lot for students",
       "other_attributes": {
