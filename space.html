@@ -11,6 +11,7 @@
 		<h1 style="text-align: center;"> Spaces</h1>
 	</div>
 	
+	
 	<!-- Divisions for Buttons -->
 	<div id="buttons" style="text-align: center;">
 		<input type=button onclick="redirectTo('parking.html')" id="button1" value="Home Page" class="button">
@@ -20,7 +21,12 @@
 		<input type=button onclick="redirectTo('404.html')" id="button4" value="Sercuity" class="button">
 		<input type=button onclick="redirectTo('404.html')" id="button5" value="Sign In!" class="button">
 	</div>
-	
+	<nav class="crumbs">
+    <ol>
+		<li class="crumb"><a href="parking.html">Home</a></li>
+		<li class="crumb"><a href="lots.html">Parking Lots</a></li>
+		<li class="crumb">Spaces</li>
+    </ol>
 	<main>
     <div id="parkingLotDetails"></div>
 	</main>
@@ -28,48 +34,7 @@
 	<img src = "https://1000logos.net/wp-content/uploads/2021/06/Marist-Red-Foxes-logo.png" class="top-left">
 </body>
 <script src="parking.js"></script>
-<script type="module">
-	    // Function to retrieve query parameter value by name
-        function getQueryParam(name) {
-            const urlParams = new URLSearchParams(window.location.search);
-            return urlParams.get(name);
-        }
 
-        // Retrieve the lot name from the query parameter
-        const lotName = getQueryParam('lot');
-
-        // Fetch parking lot data and display details for the selected lot
-        async function fetchParkingLotDetails() {
-            const response = await fetch("https://andrewh512.github.io/SD330/parking.json");
-            const data = await response.json();
-
-            // Find the selected parking lot
-            const selectedLot = data.parking_lots.find(lot => lot.name === lotName);
-
-            if (selectedLot) {
-                // Display parking lot details
-                const parkingLotDetails = document.getElementById('parkingLotDetails');
-                parkingLotDetails.innerHTML = `
-                    <h2>${selectedLot.name}</h2>
-                    <p>Total spaces: ${selectedLot.total_spaces}</p>
-                    <h3>Spaces In This Lot</h3>
-					<hr></hr>
-                    <ul>
-                        ${selectedLot.spaces.map(space => `
-                            <p>Space Number: ${space.space_id}, <br> Type: ${space.type}, <br> Status: ${space.status}</p> <hr></hr>
-                        `).join('')}
-                    </ul>
-                    <p>Map: <br> <img src="${selectedLot.map_filename}" alt="${selectedLot.map_filename}"></p>
-                `;
-            } else {
-                // Handle case where lot name is not found
-                const parkingLotDetails = document.getElementById('parkingLotDetails');
-                parkingLotDetails.innerHTML = '<p>Lot not found.</p>';
-            }
-        }
-
-        fetchParkingLotDetails();
-	</script>
 <footer>
 <footer>
    <hr><small>&copy; Andrew J Hennessy, 04/30/2024</small></hr>
